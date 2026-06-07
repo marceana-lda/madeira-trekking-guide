@@ -83,6 +83,25 @@ const routes = [
     booking:'Да, SIMplifica.', price:'€4.50; дети до 12 бесплатно, слот всё равно нужен.', terrain:['сухо','без тени','вулканические скалы','ветер','океан с двух сторон'],
     details:'Открытая сухая местность, почти без деревьев и тени. Тропа хорошая, но волнистая: подъёмы и спуски есть. Ветер может быть сильным, солнце — жёстким, поэтому вода, кепка и защита от солнца обязательны. Лучше утром или ближе к вечеру. Отдельный дальний день из Calheta.',
     verdict:'Визуально другой остров; обязательно, если есть день на восток.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-8-vereda-da-ponta-de-sao-lourenco/', image:'https://visitmadeira.com/media/bnpngpg0/pr8-vereda-da-ponta-de-sao-lourenc-o.jpg', icon:Wind
+  },
+  {
+    id:'pr11-balcoes', order:'09', group:'Супер простые / с детьми', name:'PR11', title:'Vereda dos Balcões',
+    short:'Очень лёгкая прогулка к одному из лучших “балконов” на центральные пики Madeira. Отлично с детьми, если маршрут открыт.',
+    score:{beauty:8.5,difficulty:2,distanceFromCalheta:7}, distance:'3 км туда‑обратно', duration:'45–75 мин спокойно',
+    altitude:['870–880 м'], elevation:'10 м', start:'Ribeiro Frio / ER103', maps:'https://maps.google.com/?q=32.735539779125105,-16.886377853332657', waze:'https://waze.com/ul?ll=32.735539779125105%2C-16.886377853332657&navigate=yes',
+    booking:'Да, SIMplifica. Если маршрут открыт — нужен слот.', price:'€4.50 для взрослых; дети до 12 бесплатно, но слот всё равно нужен.', terrain:['очень легко','Laurissilva','почти без набора','с детьми','смотровая площадка'],
+    details:'Маршрут идёт вдоль Levada da Serra do Faial через зелёную Laurissilva. Тропа простая, почти без набора, хороша для детей. Финал — Miradouro dos Balcões: виды на Pico do Areeiro, Pico das Torres и Pico Ruivo в ясную погоду. Можно добавить Ribeiro Frio Forest Park и форелевый питомник.',
+    verdict:'Лучший семейный короткий маршрут, если хочется красивый вид без нагрузки.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-11-vereda-dos-balcoes/', image:'https://visitmadeira.com/media/miajj3pg/pr11-vereda-dos-balcoes.jpg', icon:TreePine
+  },
+  {
+    id:'pr68-paul-ii', order:'10', group:'Супер простые / с детьми', name:'PR6.8', title:'Levada do Paul II / Um caminho para todos',
+    short:'Самый лёгкий levada-вариант в районе Rabaçal/Calheta. Маршрут “для всех”, включая людей с ограниченной мобильностью.',
+    score:{beauty:7,difficulty:1,distanceFromCalheta:3}, distance:'2.4 км туда‑обратно', duration:'30–60 мин',
+    altitude:['1279–1280 м'], elevation:'1 м', start:'Rabaçal / ER105, рядом с loading chamber', maps:'https://maps.google.com/?q=32.748333751351666,-17.1254424884857', waze:'https://waze.com/ul?ll=32.748333751351666%2C-17.1254424884857&navigate=yes',
+    booking:'Да, SIMplifica.', price:'€4.50 для взрослых; дети до 12 бесплатно, но слот всё равно нужен.', terrain:['максимально легко','почти плоско','levada','рядом с Calheta','восстановительный день'],
+    details:'Короткая, почти плоская levada-прогулка с видами на южные склоны Calheta. Хороша для совсем лёгкого дня, маленьких детей, восстановления после сложного маршрута или как короткая прогулка рядом с Rabaçal.',
+    verdict:'Самый безопасный “лёгкий день” рядом с Calheta/Rabaçal.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-68-levada-do-paul-ii-um-caminho-para-todos/', image:'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80', icon:Droplets
+
   }
 ];
 
