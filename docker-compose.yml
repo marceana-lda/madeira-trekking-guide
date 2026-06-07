@@ -1,0 +1,7 @@
+services:
+  madeira-trekking-guide:
+    build: .
+    container_name: madeira-trekking-guide
+    restart: unless-stopped
+    ports:
+      - "8092:80"
