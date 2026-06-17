@@ -39,7 +39,52 @@ const routes = [
     verdict:'Очень логичный из Calheta: океан, история и деревня Paul do Mar.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-19-caminho-real-do-paul-do-mar/', image:'https://visitmadeira.com/media/lvzefhin/pr19-caminho-real-do-paul-do-mar.jpg', icon:Waves
   },
   {
-    id:'pr13', order:'04', group:'Близкие второстепенные', name:'PR13', title:'Vereda do Fanal',
+    id:'pesqueiro', order:'04', group:'Близкие / океанские', name:'Vereda do Pesqueiro', title:'Lombadinha — Porto do Pesqueiro',
+    short:'Скрытая океанская тропа у Ponta do Pargo: крутой спуск к старому рыбацкому порту, обрывы, западный берег и мало людей.',
+    score:{beauty:8.5,difficulty:7,distanceFromCalheta:4}, distance:'4.6 км туда‑обратно', duration:'2–2:30 ч',
+    altitude:['около 0–350 м по ощущению профиля','официальный лист даёт маршрут Lombadinha — Porto do Pesqueiro'], elevation:'крутой спуск и обратный набор; нагрузка выше, чем кажется по километрам',
+    start:'Lombadinha / ER101, Ponta do Pargo', maps:'https://maps.google.com/?q=32.815278,-17.245833', waze:'https://waze.com/ul?ll=32.815278%2C-17.245833&navigate=yes',
+    booking:'Обычно не SIMplifica: муниципальная trail, не classified PR. Перед выходом всё равно проверить локальный статус/погоду.', price:'Бесплатно по доступной информации.',
+    terrain:['океанские обрывы','крутой спуск','каменная тропа','мало тени','туда‑обратно'],
+    details:'Маршрут стартует в Lombadinha у ER101 и спускается к Porto do Pesqueiro. Официально указан как medium, но из-за резкого профиля и открытого океанского склона ощущается заметно бодрее. Хорош для дня, когда хочется не классическую levada, а западный берег, простор, ветер и меньше туристического потока. В жару лучше рано утром или ближе к вечеру.',
+    verdict:'Лучший “скрытый” океанский вариант рядом/средне от Calheta.', official:'https://www.cmcalheta.pt/en/visit/walking-routes/list-of-routes/vereda-do-pesqueiro', image:'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80', icon:Waves
+  },
+  {
+    id:'moinho-nova', order:'05', group:'Близкие / levada+', name:'Levada do Moinho + Levada Nova', title:'Lombada da Ponta do Sol loop',
+    short:'Непопсовая южная levada-петля: долина, водопад, проход за водой, тоннель и открытые узкие участки над склоном.',
+    score:{beauty:8.5,difficulty:6.5,distanceFromCalheta:3}, distance:'около 8–8.5 км петля', duration:'2:30–3:30 ч',
+    altitude:['примерно 350–520 м зона Lombada da Ponta do Sol'], elevation:'около 160–200 м',
+    start:'Igreja da Lombada / Ponta do Sol', maps:'https://maps.google.com/?q=32.698889,-17.105278', waze:'https://waze.com/ul?ll=32.698889%2C-17.105278&navigate=yes',
+    booking:'Не путать с official PR7 Levada do Moinho на северо‑западе. Эта петля non‑PR; билет обычно не нужен.', price:'Бесплатно по доступной информации.',
+    terrain:['levada','водопад','тоннель','открытые борта','скользко после дождя'],
+    details:'Это связка двух соседних levada у Lombada da Ponta do Sol, а не официальный PR7. Маршрут выглядит легче по набору, но местами идёт по узкой полке над долиной; для людей с боязнью высоты может быть неприятно. Главные фишки — водопад, за которым можно пройти, тоннель и красивые виды на южные склоны. Нужен фонарик/телефон для тоннеля и обувь с хорошим сцеплением.',
+    verdict:'Очень хороший “не самая толпа, но красиво” вариант рядом с Calheta.', official:'https://www.saltinourhair.com/madeira/levada-do-moinho-levada-nova/', image:'https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=1400&q=80', icon:Droplets
+  },
+  {
+    id:'pr13-encumeada', order:'06', group:'Средне / горные', name:'PR1.3', title:'Vereda da Encumeada',
+    short:'Серьёзный линейный горно‑лесной маршрут от района Pico Ruivo к Encumeada: центральный массив, Laurissilva, пещеры и длинная логистика.',
+    score:{beauty:9,difficulty:8,distanceFromCalheta:6}, distance:'11.2 км линейно', duration:'5–6 ч + логистика',
+    altitude:['1009–1764 м'], elevation:'около 755 м по max/min; профиль может ощущаться тяжелее',
+    start:'Casa de Abrigo do Pico Ruivo / Achada do Teixeira side', maps:'https://maps.google.com/?q=32.76021449770582,-16.943376336186073', waze:'https://waze.com/ul?ll=32.76021449770582%2C-16.943376336186073&navigate=yes',
+    booking:'Да, SIMplifica, но по состоянию страницы Visit Madeira маршрут сейчас CLOSED — идти только если статус сменится на OPEN.', price:'€4.50 при открытом доступе; дети до 12 бесплатно, слот всё равно нужен.',
+    terrain:['high‑mountain','Laurissilva','длинный линейный маршрут','ветер/облака','сложная логистика'],
+    details:'Маршрут идёт вдоль центрального горного хребта на запад к Encumeada и сочетает два мира: горный вулканический массив и влажную Laurissilva. Это уже не прогулка: нужен полный день, проверенная погода, запас воды/одежды и понятный план возврата. Как альтернатива/вариация в этой зоне можно смотреть Pico Grande-подходы, но их лучше планировать отдельно по треку и погоде.',
+    warning:'Сейчас официальный статус страницы — CLOSED. Карточка добавлена как кандидат, но перед поездкой обязательно проверить Visit Madeira / IFCN.',
+    verdict:'Если откроют — один из лучших менее массовых горных вариантов вместо PR1.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-13-vereda-da-encumeada/', image:'https://visitmadeira.com/media/b3xclezw/pr13-vereda-da-encumeada.jpg', icon:Mountain
+  },
+  {
+    id:'pr16', order:'07', group:'Средне / северные levada', name:'PR16', title:'Levada Fajã do Rodrigues',
+    short:'Северная levada у São Vicente: тоннели, водопады, густая зелень, виды на долину и меньше ощущения туристического конвейера.',
+    score:{beauty:8.5,difficulty:6.5,distanceFromCalheta:6}, distance:'7.8 км туда‑обратно', duration:'около 3:30 ч',
+    altitude:['600–630 м'], elevation:'минимальный набор, но много влажных/узких участков',
+    start:'Ginjas, São Vicente', maps:'https://maps.google.com/?q=32.779256929687,-17.04957993776205', waze:'https://waze.com/ul?ll=32.779256929687%2C-17.04957993776205&navigate=yes',
+    booking:'Да, SIMplifica.', price:'€4.50; дети до 12 бесплатно, слот всё равно нужен.',
+    terrain:['levada','тоннели','водопады','влажно','фонарик обязателен'],
+    details:'PR16 идёт по Levada Fajã do Rodrigues / Fajã da Ama от Ginjas к Ribeira do Inferno и возвращается тем же путём. Технически умеренно, но из-за тоннелей, мокрых камней, узких мест и северной влажности требует аккуратности. Хороший вариант, если хочется воды, зелени и тоннелей без такой популярности, как Caldeirão Verde.',
+    verdict:'Сильный северный вариант: зрелищно, влажно, с тоннелями и без толпы уровня PR9.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-16-levada-faja-do-rodrigues/', image:'https://ifcn.madeira.gov.pt/images/FotosArtigos/ActivNatureza/PercPedRecom/Paineis_Net/pr16.jpg', icon:Droplets
+  },
+  {
+    id:'pr13', order:'08', group:'Близкие второстепенные', name:'PR13', title:'Vereda do Fanal',
     short:'Атмосферный маршрут через Laurissilva и плато Paul da Serra. Лучший эффект — в тумане.',
     score:{beauty:8.5,difficulty:5,distanceFromCalheta:4}, distance:'10.8 км линейно', duration:'около 4 ч',
     altitude:['1130–1420 м'], elevation:'290 м', start:'ER209 Assobiadores / Paul da Serra', maps:'https://maps.google.com/?q=32.76711059606755,-17.107713654977086', waze:'https://waze.com/ul?ll=32.76711059606755%2C-17.107713654977086&navigate=yes',
@@ -48,7 +93,7 @@ const routes = [
     verdict:'Сказочная лавровая Мадейра, особенно в тумане.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-13-vereda-do-fanal/', image:'https://visitmadeira.com/media/bjqe3ggg/pr13-vereda-do-fanal.jpg', icon:TreePine
   },
   {
-    id:'pr12', order:'05', group:'Удалённые / горные', name:'PR1.2', title:'Vereda do Pico Ruivo',
+    id:'pr12', order:'09', group:'Удалённые / горные', name:'PR1.2', title:'Vereda do Pico Ruivo',
     short:'Самый простой и короткий способ подняться на высшую точку Madeira — Pico Ruivo, 1862 м.',
     score:{beauty:9.5,difficulty:6,distanceFromCalheta:7}, distance:'5.6 км туда‑обратно', duration:'1:30–2:30 ч',
     altitude:['Официально указано 1852–1857 м, но это не отражает реальный профиль','Практически: старт около 1590 м, вершина 1862 м'], elevation:'примерно 270 м реального набора', start:'Achada do Teixeira', maps:'https://maps.google.com/?q=32.76481399738595,-16.921079577375384', waze:'https://waze.com/ul?ll=32.76481399738595%2C-16.921079577375384&navigate=yes',
@@ -57,7 +102,7 @@ const routes = [
     verdict:'Короткий способ взять Pico Ruivo, если PR1 сложен/закрыт.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-12-vereda-do-pico-ruivo/', image:'https://visitmadeira.com/media/fxxjsraw/pr12-vereda-do-pico-ruivo.jpg', icon:Mountain
   },
   {
-    id:'pr1', order:'06', group:'Удалённые / горные', name:'PR1', title:'Vereda do Areeiro',
+    id:'pr1', order:'10', group:'Удалённые / горные', name:'PR1', title:'Vereda do Areeiro',
     short:'Главный драматичный горный маршрут Madeira: Pico do Areeiro — Pico Ruivo, хребты, обрывы, тоннели, лестницы.',
     score:{beauty:10,difficulty:9,distanceFromCalheta:7}, distance:'6.1–7 км в одну сторону; доступность проверять', duration:'3:30 ч официально, больше с паузами',
     altitude:['1491–1857 м'], elevation:'366 м по max/min; ощущается больше из‑за “пилы”', start:'Pico do Areeiro viewpoint', maps:'https://maps.google.com/?q=32.73549086827481,-16.928797218182066', waze:'https://waze.com/ul?ll=32.73549086827481%2C-16.928797218182066&navigate=yes',
@@ -67,7 +112,7 @@ const routes = [
     verdict:'10/10 по драме и видам, но только при хорошем статусе и погоде.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-1-vereda-do-areeiro/', image:'https://visitmadeira.com/media/ldyjqzb2/pr1-vereda-do-areeiro.jpg', icon:Mountain
   },
   {
-    id:'pr9', order:'07', group:'Удалённые / лесные', name:'PR9', title:'Levada do Caldeirão Verde',
+    id:'pr9', order:'11', group:'Удалённые / лесные', name:'PR9', title:'Levada do Caldeirão Verde',
     short:'Длинная красивая levada через Laurissilva, тоннели и скальные стены к водопаду Caldeirão Verde.',
     score:{beauty:9,difficulty:6,distanceFromCalheta:7}, distance:'17.4 км туда‑обратно', duration:'около 6:30 ч',
     altitude:['872–1020 м'], elevation:'148 м', start:'Queimadas Forest Park', maps:'https://maps.google.com/?q=32.78355662588914,-16.907019203666717', waze:'https://waze.com/ul?ll=32.78355662588914%2C-16.907019203666717&navigate=yes',
@@ -76,7 +121,7 @@ const routes = [
     verdict:'Красиво, длинно, с тоннелями; делать отдельным днём.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-9-levada-do-caldeirao-verde/', image:'https://visitmadeira.com/media/ulnbwvru/pr9-levada-do-caldeirao-verde.jpg', icon:Droplets
   },
   {
-    id:'pr8', order:'08', group:'Удалённые / океан', name:'PR8', title:'Ponta de São Lourenço',
+    id:'pr8', order:'12', group:'Удалённые / океан', name:'PR8', title:'Ponta de São Lourenço',
     short:'Совсем другая Madeira: сухой восточный полуостров, вулканические скалы, океан с двух сторон, ветер и открытые виды.',
     score:{beauty:9,difficulty:5,distanceFromCalheta:8}, distance:'6 км туда‑обратно', duration:'2:30 ч',
     altitude:['23–126 м'], elevation:'103 м', start:'Baía d’Abra', maps:'https://maps.google.com/?q=32.74337635200951,-16.700940231938628', waze:'https://waze.com/ul?ll=32.74337635200951%2C-16.700940231938628&navigate=yes',
@@ -85,7 +130,7 @@ const routes = [
     verdict:'Визуально другой остров; обязательно, если есть день на восток.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-8-vereda-da-ponta-de-sao-lourenco/', image:'https://visitmadeira.com/media/bnpngpg0/pr8-vereda-da-ponta-de-sao-lourenc-o.jpg', icon:Wind
   },
   {
-    id:'pr11-balcoes', order:'09', group:'Супер простые / с детьми', name:'PR11', title:'Vereda dos Balcões',
+    id:'pr11-balcoes', order:'13', group:'Супер простые / с детьми', name:'PR11', title:'Vereda dos Balcões',
     short:'Очень лёгкая прогулка к одному из лучших “балконов” на центральные пики Madeira. Отлично с детьми, если маршрут открыт.',
     score:{beauty:8.5,difficulty:2,distanceFromCalheta:7}, distance:'3 км туда‑обратно', duration:'45–75 мин спокойно',
     altitude:['870–880 м'], elevation:'10 м', start:'Ribeiro Frio / ER103', maps:'https://maps.google.com/?q=32.735539779125105,-16.886377853332657', waze:'https://waze.com/ul?ll=32.735539779125105%2C-16.886377853332657&navigate=yes',
@@ -94,7 +139,7 @@ const routes = [
     verdict:'Лучший семейный короткий маршрут, если хочется красивый вид без нагрузки.', official:'https://visitmadeira.com/en/what-to-do/nature-seekers/activities/hiking/pr-11-vereda-dos-balcoes/', image:'https://visitmadeira.com/media/miajj3pg/pr11-vereda-dos-balcoes.jpg', icon:TreePine
   },
   {
-    id:'pr68-paul-ii', order:'10', group:'Супер простые / с детьми', name:'PR6.8', title:'Levada do Paul II / Um caminho para todos',
+    id:'pr68-paul-ii', order:'14', group:'Супер простые / с детьми', name:'PR6.8', title:'Levada do Paul II / Um caminho para todos',
     short:'Самый лёгкий levada-вариант в районе Rabaçal/Calheta. Маршрут “для всех”, включая людей с ограниченной мобильностью.',
     score:{beauty:7,difficulty:1,distanceFromCalheta:3}, distance:'2.4 км туда‑обратно', duration:'30–60 мин',
     altitude:['1279–1280 м'], elevation:'1 м', start:'Rabaçal / ER105, рядом с loading chamber', maps:'https://maps.google.com/?q=32.748333751351666,-17.1254424884857', waze:'https://waze.com/ul?ll=32.748333751351666%2C-17.1254424884857&navigate=yes',
